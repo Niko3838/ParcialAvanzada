@@ -10,4 +10,8 @@ class LibroController extends Controller
 	{
    	     return view('libro.libro');
  	}
+	 public function reg_libros()
+	 {
+			 return view('libro.reg_libro');
+	  }
 }

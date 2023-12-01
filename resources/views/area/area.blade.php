@@ -22,14 +22,13 @@
                     <table class="table table-bordered text-center">
                         <thead>
                             <tr>
-                                <th>#</th>
                                 <th>Código</th>
-                                <th>Nombre</th>
-                                <th>Opciones</th>
+                                <th>Descripcion de area</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
+                                <td>hola</td>
                                 <td>hola</td>
                             </tr>
                         </tbody>
