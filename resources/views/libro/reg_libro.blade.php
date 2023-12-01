@@ -54,9 +54,9 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="observaciones" class="col-sm-4 col-form-label">Observacion</label>
+                            <label for="observacion" class="col-sm-4 col-form-label">Observacion</label>
                             <div class="col-sm-12">
-                                <input type="text" class="form-control" id="observaciones" name="observaciones" placeholder="Ingrese observaciones">
+                                <input type="text" class="form-control" id="observacion" name="observacion" placeholder="Ingrese observaciones">
                             </div>
                         </div>
 
