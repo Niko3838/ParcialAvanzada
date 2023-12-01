@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AreaController;
+use App\Http\Controllers\LibreriaController;
+use App\Http\Controllers\LibroController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +17,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('libreria.libreria');
 });
+
+Route::get('/beanvides/libros', [LibroController::class, 'index']
+)->middleware(['guest'])->name('beanvides/libros');
+
+Route::get('/beanvides/areas', [AreaController::class, 'index']
+)->middleware(['guest'])->name('beanvides/areas');
+
+Route::get('/beanvides/presentacion', [LibreriaController::class, 'index']
+)->middleware(['guest'])->name('beanvides/presentacion');
