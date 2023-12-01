@@ -23,8 +23,19 @@ Route::get('/', function () {
 Route::get('/beanvides/libros', [LibroController::class, 'index']
 )->middleware(['guest'])->name('beanvides/libros');
 
+
+
+
+
 Route::get('/beanvides/areas', [AreaController::class, 'index']
 )->middleware(['guest'])->name('beanvides/areas');
+
+Route::get('/beanvides/areas/registro', [AreaController::class, 'reg_areas']
+)->middleware(['guest'])->name('beanvides/areas/reg_areas');
+
+
+
+
 
 Route::get('/beanvides/presentacion', [LibreriaController::class, 'index']
 )->middleware(['guest'])->name('beanvides/presentacion');

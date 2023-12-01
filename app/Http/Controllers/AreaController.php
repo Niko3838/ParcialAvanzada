@@ -10,4 +10,8 @@ class AreaController extends Controller
 	{
    	     return view('area.area');
  	}
+    public function reg_areas()
+     {
+             return view('area.reg_area');
+      }
 }
